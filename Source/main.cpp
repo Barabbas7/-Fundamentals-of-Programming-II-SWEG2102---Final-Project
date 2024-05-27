@@ -225,6 +225,8 @@ static int confirm(void *data, int argc, char **argv, char **azColName)
         cin >> tempOrder->phone;
         break;
     case 'n':
+        cout << "You are welcome to order anytime again.";
+        exit(0);
         break;
     default:
         cout << "Invalid input, We hope to see you again ;)";
